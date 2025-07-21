@@ -1,6 +1,7 @@
 name: Dump
 
-on: push
+on:
+  workflow_dispatch:
 
 jobs:
   debug:
